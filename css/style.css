@@ -132,6 +132,9 @@ h3 { font-size: var(--fs-h3) }
     margin-bottom: 2em;
 }
 
+.bold {
+    color: var(--clr-accent)
+}
 /* header */
 
 header {
@@ -334,6 +337,8 @@ header {
         margin-left: 2em;
     }
 }
+
+
 
 
 /*  About me  */
