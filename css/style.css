@@ -244,7 +244,12 @@ header {
 .hamburger::before { top: 6px; }
 .hamburger::after { bottom: 6px; }
 
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 
+} */
 
 
 
@@ -464,6 +469,22 @@ header {
 
 .social-list__link {
     padding: .5em;
+}
+
+.footer__btn {
+    display: inline-block;
+    padding: .5em 2.5em;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
+}
+
+.footer__btn:hover {
+    transform: scale(1.1);
 }
 
 /* Individual portfolio item styles */
